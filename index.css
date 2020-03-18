@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+#page-background{
+    color: #fafafa;
+}
+#top-bar{
+    box-sizing: border-box;
+    height: 44px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    width: 100vw;
+    border-bottom: solid 1px #ca2100;
+    background-color: #db4c3f;
+}
+#top-bar-inner {
+    height: 100%;
+    width: 922px;
+    padding-left: 13px;
+    position: relative;
+}
+#logo {
+    float: left;
+    padding-top: 7px;
+}
+#top_icons {
+    border: 0;
+    float: right;
+    height: 100%;
+    white-space: nowrap !important;
+    padding-right: 12px;
+}
+#quick_find {
+    white-space: nowrap;
+    margin-left: 292px;
+    padding-top: 6px;
+}
